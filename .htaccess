@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
+=======
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+>>>>>>> b206d81a4054f7712d05873d771184318ad497c9
 RewriteRule ^(.*)$ $1.html [NC,L]
